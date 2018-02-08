@@ -1,0 +1,2 @@
+ros_tivac:tivac_iocontrol_msg
+-DCATKIN_DEVEL_PREFIX=/home/wesley/Sources/MuscleLikeActuator/ros/devel -DCMAKE_INSTALL_PREFIX=/home/wesley/Sources/MuscleLikeActuator/ros/install -G Unix Makefiles

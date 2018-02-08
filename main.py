@@ -233,7 +233,7 @@ for metametaloop in range(1):
 	metasuccess = np.zeros(1)
 	for metaloop in range(1):
 
-		timelength = 10
+		timelength = 2
 		timestep = 0.01
 
 
@@ -311,19 +311,19 @@ for metametaloop in range(1):
 
 
 	plt.figure(0)
-	plt.plot(t, command, label="command")
-	plt.plot(t, error, label="error")
-	plt.plot(t, response, label="response")
-	plt.plot(t, muscleforce, label="muscleforce")
-	plt.plot(t, musclecommand, label="musclecommand")
-	plt.plot(t, theta[0,:], label="theta")
+	plt.plot(t, command, label="Desired Arm Movement")
+
+	plt.plot(t, response, label="Ideal Force")
+	plt.plot(t, muscleforce, label="Actual Muscle Force")
+	plt.plot(t, musclecommand, label="Nominal Muscle Force")
+	plt.plot(t, theta[0,:], label="Actual Arm Angle")
 	plt.legend()
 
 	plt.figure(1)
-	plt.plot(t, likelyhoods[0], label="0")
-	plt.plot(t, likelyhoods[1], label="1")
-	plt.plot(t, likelyhoods[2], label="2")
-	plt.plot(t, likelyhoods[3], label="3")
+	plt.plot(t, likelyhoods[0], label="Predictor 1")
+	plt.plot(t, likelyhoods[1], label="Predictor 2")
+	plt.plot(t, likelyhoods[2], label="Predictor 3")
+	plt.plot(t, likelyhoods[3], label="Predictor 4")
 	plt.legend()
 
 	plt.figure(2)

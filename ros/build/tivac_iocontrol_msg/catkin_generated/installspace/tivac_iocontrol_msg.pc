@@ -1,0 +1,8 @@
+prefix=/home/wesley/Sources/MuscleLikeActuator/ros/install
+
+Name: tivac_iocontrol_msg
+Description: Description of tivac_iocontrol_msg
+Version: 0.0.0
+Cflags: -I/home/wesley/Sources/MuscleLikeActuator/ros/install/include
+Libs: -L/home/wesley/Sources/MuscleLikeActuator/ros/install/lib 
+Requires: message_runtime

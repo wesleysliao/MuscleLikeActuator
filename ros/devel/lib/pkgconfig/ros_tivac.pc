@@ -1,0 +1,8 @@
+prefix=/home/wesley/Sources/MuscleLikeActuator/ros/devel
+
+Name: ros_tivac
+Description: Description of ros_tivac
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wesley/Sources/MuscleLikeActuator/ros/devel/lib 
+Requires: 
